@@ -36,6 +36,15 @@ p {
   line-height: 1.5;
 }
 
+.page-title {
+  font-size: 48px;
+  margin: 80px;
+}
+
+.name-text {
+  font-size: 96px;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
