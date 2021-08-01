@@ -122,6 +122,10 @@ p {
   color: white;
 }
 
+.button:hover {
+  color: white;
+}
+
 .project-header {
   text-align: left;
   margin: 13px;
