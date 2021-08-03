@@ -1,0 +1,9 @@
+:root {
+  --primary-color: ;
+  --secondary-color: ;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  max-width: 100%;
+}
