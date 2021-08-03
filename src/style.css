@@ -1,9 +1,16 @@
 :root {
-  --primary-color: ;
-  --secondary-color: ;
+  --primary-color: #3b0944;
+  --second-color: #f7f7f7;
+  --third-color: #5f1854;
+  --fourth-color: #1abb9c;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   max-width: 100%;
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: var(--second-color);
 }
