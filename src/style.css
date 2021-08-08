@@ -10,7 +10,6 @@
 
 body {
   font-family: var(--body-text-font-family);
-
   font-size: 26px;
 }
 
@@ -37,16 +36,29 @@ h3 {
   margin: 50px;
 }
 
+.hero-text {
+  font-family: var(--heading-font-family);
+  font-size: 52px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.hero-code-text {
+  font-weight: 900;
+  color: var(--fourth-color);
+}
+
 .text_1 {
   animation: text1;
+  color: var(--fourth-color);
+  font-weight: 900;
 }
 
 .text_2 {
   animation: text2;
-}
-
-.text_3 {
-  animation: text3;
+  color: var(--fourth-color);
+  font-weight: 900;
 }
 
 .text_1,
@@ -55,7 +67,7 @@ h3 {
   white-space: nowrap;
   display: inline-block;
   position: relative;
-  animation-duration: 15s;
+  animation-duration: 20s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
 }
@@ -89,6 +101,7 @@ h3 {
   100% {
     width: 0;
   }
+
   10%,
   40% {
     width: 7em;
