@@ -4,35 +4,63 @@
   --third-color: #5f1854;
   --fourth-color: #1abb9c;
   --heading-font-family: "Source Code Pro", monospace;
-  --body-text-font-family: "Source Sans Pro" . sans-serif;
+  --body-text-font-family: "Monserrat", sans-serif;
   --button-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 body {
   font-family: var(--body-text-font-family);
+  background-color: var(--second-color);
+  font-size: 26px;
 }
 
 h1,
 h2,
 h3 {
   font-family: var(--heading-font-family);
+  font-size: 52px;
 }
 
 .hero {
-  padding: 100px 60px 100px 60px;
+  padding: 100px 80px 100px 100px;
+  margin: 50px;
+}
+
+.typewriter {
+  display: inline;
+}
+
+.hero-image {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  border-radius: 15px;
 }
 
 .btn {
   box-shadow: var(--button-box-shadow);
+  border-radius: 4px;
 }
 
 .btn-projects {
   background-color: var(--third-color);
   color: var(--second-color);
   margin-right: 15px;
+  transition: ease-in-out 200ms;
 }
 
-.btn-contatc {
+.btn-contact {
   background-color: var(--second-color);
+  color: var(--third-color);
+  transition: ease-in-out 200ms;
+}
+
+.btn-projects:hover {
+  background-color: var(--second-color);
+  color: var(--third-color);
+}
+
+.btn-contact:hover {
+  border-color: var(--third-color);
   color: var(--third-color);
 }
