@@ -3,6 +3,7 @@
   --second-color: #f7f7f7;
   --third-color: #5f1854;
   --fourth-color: #1abb9c;
+  --heading-font-family: "Source Code Pro", monospace;
+  --body-text-font-family: "Source Sans Pro" . sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --font: monospace;
 }
