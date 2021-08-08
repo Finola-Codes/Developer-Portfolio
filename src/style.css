@@ -5,5 +5,34 @@
   --fourth-color: #1abb9c;
   --heading-font-family: "Source Code Pro", monospace;
   --body-text-font-family: "Source Sans Pro" . sans-serif;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --button-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: var(--body-text-font-family);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-family);
+}
+
+.hero {
+  padding: 100px 60px 100px 60px;
+}
+
+.btn {
+  box-shadow: var(--button-box-shadow);
+}
+
+.btn-projects {
+  background-color: var(--third-color);
+  color: var(--second-color);
+  margin-right: 15px;
+}
+
+.btn-contatc {
+  background-color: var(--second-color);
+  color: var(--third-color);
 }
