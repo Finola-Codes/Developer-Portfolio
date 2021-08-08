@@ -9,10 +9,78 @@
 body {
   max-width: 100%;
   background-color: var(--second-color);
-  font-family: "Space Mono", monospace;
+  font-family: "Source Code Pro", monospace;
 }
 
-h1 {
-  color: var(--third-color);
-  font-weight: 600;
+.typewriter h2 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+  width: 10em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 3s steps(40, end);
+  animation: type 4s steps(40, end);
+  border-right: 0.3em solid var(--fourth-color);
+}
+
+.typewriter h2:nth-child(2) {
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 5s steps(40, end);
+  animation: type2 5s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+span {
+  animation: blink 1s infinite;
+}
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
