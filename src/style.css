@@ -10,7 +10,7 @@
 
 body {
   font-family: var(--body-text-font-family);
-  background-color: var(--second-color);
+
   font-size: 26px;
 }
 
@@ -18,7 +18,18 @@ h1,
 h2,
 h3 {
   font-family: var(--heading-font-family);
+}
+
+h2 {
   font-size: 52px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.nav-item {
+  font-size: 20px;
 }
 
 .hero {
@@ -37,9 +48,16 @@ h3 {
   border-radius: 15px;
 }
 
+@media (max-width: 960px) {
+  .hero-image {
+    display: none;
+  }
+}
+
 .btn {
   box-shadow: var(--button-box-shadow);
   border-radius: 4px;
+  padding: 18px;
 }
 
 .btn-projects {
@@ -47,6 +65,12 @@ h3 {
   color: var(--second-color);
   margin-right: 15px;
   transition: ease-in-out 200ms;
+}
+
+@media (max-width: 720px) {
+  .btn-projects {
+    margin-bottom: 25px;
+  }
 }
 
 .btn-contact {
@@ -63,4 +87,17 @@ h3 {
 .btn-contact:hover {
   border-color: var(--third-color);
   color: var(--third-color);
+}
+
+.featured-projects {
+  text-align: center;
+}
+
+.featured-projects img {
+  margin-bottom: 20px;
+}
+
+.home-contact-form-link {
+  display: block;
+  text-align: center;
 }
