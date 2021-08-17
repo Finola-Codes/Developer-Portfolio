@@ -61,7 +61,6 @@ p {
 
 .hero {
   padding: 200px 100px 100px 100px;
-
   background-color: rgb(95, 24, 84, 0.1);
 }
 
@@ -272,4 +271,8 @@ p {
 .home-contact-form-link {
   display: block;
   text-align: center;
+}
+
+.footer {
+  background: rgb(95, 24, 84, 0.1);
 }
