@@ -162,6 +162,10 @@ h3 {
   text-align: right;
 }
 
+.card-deck {
+  display: inline;
+  text-align: center;
+}
 .home-contact-form-link {
   display: block;
   text-align: center;
