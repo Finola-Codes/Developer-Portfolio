@@ -154,8 +154,12 @@ h3 {
   color: var(--third-color);
 }
 
-.featured-projects {
-  text-align: center;
+/* Featured Projects Sections */
+
+.all-projects-link {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
 }
 
 .featured-projects img {
