@@ -167,6 +167,14 @@ h4 {
   text-align: right;
 }
 
+@media (max-width: 960px) {
+  .all-projects-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 .card-deck {
   display: inline;
   text-align: center;
