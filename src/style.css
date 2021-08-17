@@ -8,6 +8,10 @@
   --button-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
+body {
+  color: var(--primary-color);
+}
+
 h1,
 h2,
 h3,
@@ -33,7 +37,6 @@ h4 {
 
 p {
   font-size: 16px;
-  color: var(--primary-color);
 }
 
 .navbar-brand {
@@ -41,14 +44,14 @@ p {
   font-weight: 900;
   font-family: var(--heading-font-family) !important;
   text-decoration: none !important;
-  color: var(--primary-color) !important;
+  color: var(--fourth-color) !important;
 }
 
 .navbar-brand:hover {
   font-size: 16px !important;
   font-family: var(--heading-font-family) !important;
   text-decoration: none !important;
-  color: var(--fourth-color) !important;
+  color: var(--primary-color) !important;
 }
 
 .nav-link {
@@ -262,7 +265,9 @@ p {
 .card-deck {
   display: inline;
   text-align: center;
+  padding: 50px;
 }
+
 .home-contact-form-link {
   display: block;
   text-align: center;
