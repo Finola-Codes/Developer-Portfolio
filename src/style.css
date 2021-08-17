@@ -37,6 +37,7 @@ h4 {
 
 p {
   font-size: 16px;
+  line-height: 2em;
 }
 
 .navbar-brand {
@@ -277,11 +278,23 @@ p {
 
 /* Contact Me */
 
-.home-contact-form-link {
-  display: block;
-  text-align: center;
+.fa-arrow-down:hover {
+  color: #1abb9c;
 }
 
-.footer {
+.social-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  margin: 15px;
+}
+
+.find-me {
   background: rgb(95, 24, 84, 0.1);
+  padding: 10px 30px 30px 30px;
+}
+
+.code-gif {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
 }
