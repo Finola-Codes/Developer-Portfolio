@@ -8,10 +8,6 @@
   --button-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-body {
-  font-family: var(--body-text-font-family);
-}
-
 h1,
 h2,
 h3,
@@ -32,8 +28,29 @@ h4 {
   font-size: 18px;
 }
 
-.nav-item {
-  font-size: 20px;
+p {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.navbar-brand {
+  font-size: 16px !important;
+  font-weight: 900;
+  font-family: var(--heading-font-family) !important;
+  text-decoration: none !important;
+  color: var(--primary-color) !important;
+}
+
+.navbar-brand:hover {
+  font-size: 16px !important;
+  font-family: var(--heading-font-family) !important;
+  text-decoration: none !important;
+  color: var(--fourth-color) !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-family: var(--heading-font-family);
 }
 
 .hero {
@@ -48,6 +65,7 @@ h4 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: var(--primary-color);
 }
 .hero-code-text {
   font-weight: 900;
@@ -186,7 +204,7 @@ h4 {
 }
 
 .btn-projects {
-  background-color: var(--third-color);
+  background-color: var(--fourth-color);
   color: var(--second-color);
   margin-right: 15px;
   transition: ease-in-out 200ms;
@@ -200,18 +218,18 @@ h4 {
 
 .btn-contact {
   background-color: var(--second-color);
-  color: var(--third-color);
+  color: var(--primary-color);
   transition: ease-in-out 200ms;
 }
 
 .btn-projects:hover {
   background-color: var(--second-color);
-  color: var(--third-color);
+  color: var(--primary-color);
 }
 
 .btn-contact:hover {
-  border-color: var(--third-color);
-  color: var(--third-color);
+  border-color: var(--fourth-color);
+  color: var(--fourth-color);
 }
 
 /* Featured Projects Sections */
