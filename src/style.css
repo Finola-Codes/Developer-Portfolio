@@ -23,10 +23,12 @@ h2 {
 
 h3 {
   font-size: 28px;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 18px;
+  font-weight: 400;
 }
 
 p {
@@ -152,7 +154,7 @@ p {
 .hero-text-mobile {
   font-weight: 900;
   font-family: var(--heading-font-family);
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -215,6 +217,7 @@ p {
   color: var(--second-color);
   margin-right: 15px;
   transition: ease-in-out 200ms;
+  text-transform: capitalize;
 }
 
 @media (max-width: 710px) {
@@ -227,6 +230,7 @@ p {
   background-color: var(--second-color);
   color: var(--primary-color);
   transition: ease-in-out 200ms;
+  text-transform: capitalize;
 }
 
 .btn-projects:hover {
