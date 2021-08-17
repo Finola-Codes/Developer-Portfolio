@@ -40,7 +40,8 @@ p {
 }
 
 .navbar-brand {
-  font-size: 16px !important;
+  font-size: 18px !important;
+  letter-spacing: 0.15em !important;
   font-weight: 900;
   font-family: var(--heading-font-family) !important;
   text-decoration: none !important;
@@ -48,8 +49,10 @@ p {
 }
 
 .navbar-brand:hover {
-  font-size: 16px !important;
+  font-size: 18px !important;
   font-family: var(--heading-font-family) !important;
+  text-decoration: none !important;
+  letter-spacing: 0.15em !important;
   text-decoration: none !important;
   color: var(--primary-color) !important;
 }
