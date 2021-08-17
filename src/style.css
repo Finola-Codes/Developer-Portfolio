@@ -265,8 +265,9 @@ p {
 .card-deck {
   display: inline;
   text-align: center;
-  padding: 50px;
 }
+
+/* Contact Me */
 
 .home-contact-form-link {
   display: block;
