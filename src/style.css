@@ -54,13 +54,14 @@ p {
 }
 
 .hero {
-  padding: 100px 80px 100px 100px;
-  margin: 50px 25px 50px 25px;
+  padding: 200px 100px 100px 100px;
+
+  background-color: rgb(95, 24, 84, 0.1);
 }
 
 .hero-text {
   font-family: var(--heading-font-family);
-  font-size: 52px;
+  font-size: 60px;
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -75,17 +76,16 @@ p {
 .text-1 {
   animation: text1;
   color: var(--fourth-color);
-  font-weight: 900;
 }
 
 .text-2 {
   animation: text2;
   color: var(--fourth-color);
-  font-weight: 900;
 }
 
 .text-1,
 .text-2 {
+  font-weight: 900;
   overflow: hidden;
   white-space: nowrap;
   display: inline-block;
@@ -149,6 +149,7 @@ p {
 }
 
 .hero-text-mobile {
+  font-weight: 900;
   font-family: var(--heading-font-family);
   font-size: 30px;
   margin-top: 0;
@@ -197,6 +198,11 @@ p {
   }
 }
 
+.hero-body {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+}
+
 .btn {
   box-shadow: var(--button-box-shadow);
   border-radius: 4px;
@@ -210,9 +216,9 @@ p {
   transition: ease-in-out 200ms;
 }
 
-@media (max-width: 720px) {
-  .btn-projects {
-    margin-bottom: 25px;
+@media (max-width: 710px) {
+  .btn-contact {
+    margin-top: 25px;
   }
 }
 
