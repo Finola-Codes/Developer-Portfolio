@@ -241,6 +241,7 @@ p {
 .btn-projects:hover {
   background-color: var(--second-color);
   color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .btn-contact:hover {
