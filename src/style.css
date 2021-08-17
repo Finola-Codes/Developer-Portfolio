@@ -124,10 +124,16 @@ h4 {
   }
 }
 
+@media (max-width: 960px) {
+  .hero-text {
+    display: none;
+  }
+}
+
 .btn {
   box-shadow: var(--button-box-shadow);
   border-radius: 4px;
-  padding: 18px;
+  padding: 18px 25px 18px 25px;
 }
 
 .btn-projects {
