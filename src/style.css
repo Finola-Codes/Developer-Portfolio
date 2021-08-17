@@ -54,20 +54,20 @@ h4 {
   color: var(--fourth-color);
 }
 
-.text_1 {
+.text-1 {
   animation: text1;
   color: var(--fourth-color);
   font-weight: 900;
 }
 
-.text_2 {
+.text-2 {
   animation: text2;
   color: var(--fourth-color);
   font-weight: 900;
 }
 
-.text_1,
-.text_2 {
+.text-1,
+.text-2 {
   overflow: hidden;
   white-space: nowrap;
   display: inline-block;
@@ -77,8 +77,8 @@ h4 {
   animation-iteration-count: infinite;
 }
 
-.text_1::after,
-.text_2::after {
+.text-1::after,
+.text-2::after {
   content: "|";
   position: absolute;
   right: 0;
@@ -127,6 +127,55 @@ h4 {
 @media (max-width: 960px) {
   .hero-text {
     display: none;
+  }
+}
+
+.hero-text-mobile {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.hero-code-text-mobile {
+  font-weight: 900;
+  color: var(--fourth-color);
+}
+
+.text-1-mobile {
+  animation: text1mobile;
+  color: var(--fourth-color);
+  font-weight: 900;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 20s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+
+.text-1-mobile::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text1mobile {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+
+  10%,
+  40% {
+    width: 7em;
   }
 }
 
