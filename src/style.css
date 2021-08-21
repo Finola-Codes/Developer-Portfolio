@@ -267,13 +267,17 @@ a :active {
 .card {
   border-radius: 25px;
   box-shadow: var(--box-shadow);
-  border: none;
-  background-color: rgb(28, 187, 155, 0.2);
+  border-color: rgb(28, 187, 155, 0.4);
+  border-width: 10px;
 }
 
 .card-img-top {
   padding: 25px;
   border-radius: 40px;
+}
+
+.card-title {
+  color: var(--fourth-color);
 }
 
 @media (max-width: 960px) {
