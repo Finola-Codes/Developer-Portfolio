@@ -5,7 +5,7 @@
   --fourth-color: #1abb9c;
   --heading-font-family: "Source Code Pro", monospace;
   --body-text-font-family: "Monserrat", sans-serif;
-  --button-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -49,6 +49,9 @@ a {
   color: var(--fourth-color);
 }
 
+a :active {
+  color: var(--third-color);
+}
 .navbar-brand {
   font-size: 18px !important;
   letter-spacing: 0.15em !important;
@@ -211,7 +214,7 @@ a {
 }
 
 .btn {
-  box-shadow: var(--button-box-shadow);
+  box-shadow: var(--box-shadow);
   border-radius: 4px;
   padding: 18px 25px 18px 25px;
 }
@@ -259,6 +262,13 @@ a {
 .card-deck {
   display: inline;
   text-align: center;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: var(--box-shadow);
+  border: none;
+  background-color: rgb(28, 187, 155, 0.2);
 }
 
 .card-img-top {
