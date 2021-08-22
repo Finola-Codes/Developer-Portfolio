@@ -198,12 +198,6 @@ a:hover {
 
 /* Featured Projects Section */
 
-.all-projects-link {
-  display: block;
-  margin: 0 auto;
-  text-align: right;
-}
-
 .card-deck {
   display: inline;
   text-align: center;
@@ -338,11 +332,5 @@ a:hover {
 @media (max-width: 960px) {
   .hero-text {
     display: none;
-  }
-
-  .all-projects-link {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
   }
 }
