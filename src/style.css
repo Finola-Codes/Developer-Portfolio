@@ -26,12 +26,12 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -52,9 +52,9 @@ a {
 a :active {
   color: var(--third-color);
 }
+
 .navbar-brand {
-  font-size: 18px !important;
-  letter-spacing: 0.15em !important;
+  font-size: 14px !important;
   font-weight: 600;
   font-family: var(--heading-font-family) !important;
   text-decoration: none !important;
@@ -62,10 +62,6 @@ a :active {
 }
 
 .navbar-brand:hover {
-  font-size: 18px !important;
-  font-family: var(--heading-font-family) !important;
-  text-decoration: none !important;
-  letter-spacing: 0.15em !important;
   text-decoration: none !important;
   color: var(--primary-color) !important;
 }
@@ -80,7 +76,6 @@ a :active {
   background-color: rgb(95, 24, 84, 0.1);
   font-family: var(--heading-font-family);
   font-size: 60px;
-  margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
@@ -158,14 +153,134 @@ a :active {
   }
 }
 
-@media (max-width: 960px) {
-  .hero-text {
+.hero-body {
+  font-size: 20px;
+  margin: 10px 6px;
+}
+
+.btn {
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  padding: 18px 25px 18px 25px;
+}
+
+.btn-projects {
+  background-color: var(--fourth-color);
+  color: var(--second-color);
+  margin-right: 15px;
+  transition: ease-in-out 200ms;
+  text-transform: capitalize;
+}
+
+.btn-contact {
+  background-color: var(--second-color);
+  color: var(--primary-color);
+  transition: ease-in-out 200ms;
+  text-transform: capitalize;
+}
+
+.btn-projects:hover {
+  background-color: var(--second-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-contact:hover {
+  border-color: var(--fourth-color);
+  color: var(--fourth-color);
+}
+
+/* Featured Projects Section */
+
+.all-projects-link {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.card-deck {
+  display: inline;
+  text-align: center;
+}
+
+.card {
+  border-radius: 25px;
+  box-shadow: var(--box-shadow);
+  background: whitesmoke;
+  border: none;
+}
+.card-img-top {
+  padding: 25px;
+  border-radius: 40px;
+}
+
+.card-title {
+  color: var(--fourth-color);
+}
+
+/* Contact Me */
+
+.fa-arrow-down:hover {
+  color: #1abb9c;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  margin: 15px;
+}
+
+.find-me {
+  background: rgb(95, 24, 84, 0.1);
+  padding: 10px 30px 30px 30px;
+  margin-top: 80px;
+}
+
+.code-gif {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.contact-form {
+  margin-left: 90px;
+}
+
+.finola-image {
+  margin: 25px 100px;
+}
+
+/*Mobile Screen */
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 150px 20px 50px 20px;
+  }
+
+  .hero-body {
     display: none;
+  }
+
+  .hero-body-mobile {
+    display: block;
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 12px;
   }
 }
 
 .hero-text-mobile {
-  font-size: 50px;
+  font-size: 22px;
 }
 
 .hero-code-text-mobile {
@@ -208,114 +323,16 @@ a :active {
   }
 }
 
-.hero-body {
-  font-size: 20px;
-  margin: 10px 6px;
-}
-
-.btn {
-  box-shadow: var(--box-shadow);
-  border-radius: 4px;
-  padding: 18px 25px 18px 25px;
-}
-
-.btn-projects {
-  background-color: var(--fourth-color);
-  color: var(--second-color);
-  margin-right: 15px;
-  transition: ease-in-out 200ms;
-  text-transform: capitalize;
-}
-
-@media (max-width: 710px) {
-  .btn-contact {
-    margin-top: 25px;
-  }
-}
-
-.btn-contact {
-  background-color: var(--second-color);
-  color: var(--primary-color);
-  transition: ease-in-out 200ms;
-  text-transform: capitalize;
-}
-
-.btn-projects:hover {
-  background-color: var(--second-color);
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-
-.btn-contact:hover {
-  border-color: var(--fourth-color);
-  color: var(--fourth-color);
-}
-
-/* Featured Projects Section */
-
-.all-projects-link {
-  display: block;
-  margin: 0 auto;
-  text-align: right;
-}
-
-.card-deck {
-  display: inline;
-  text-align: center;
-}
-
-.card {
-  border-radius: 25px;
-  box-shadow: var(--box-shadow);
-  border-color: rgb(28, 187, 155, 0.4);
-  border-width: 10px;
-}
-
-.card-img-top {
-  padding: 25px;
-  border-radius: 40px;
-}
-
-.card-title {
-  color: var(--fourth-color);
-}
+/*Med. Screen */
 
 @media (max-width: 960px) {
+  .hero-text {
+    display: none;
+  }
+
   .all-projects-link {
     display: block;
     margin: 0 auto;
     text-align: center;
   }
-}
-
-/* Contact Me */
-
-.fa-arrow-down:hover {
-  color: #1abb9c;
-}
-
-.social-links a {
-  text-decoration: none;
-  color: var(--primary-color);
-  margin: 15px;
-}
-
-.find-me {
-  background: rgb(95, 24, 84, 0.1);
-  padding: 10px 30px 30px 30px;
-  margin-top: 80px;
-}
-
-.code-gif {
-  display: block;
-  margin: 0 auto;
-  border-radius: 20px;
-}
-
-.contact-form {
-  margin-left: 90px;
-}
-
-.finola-image {
-  margin: 25px 100px;
 }
