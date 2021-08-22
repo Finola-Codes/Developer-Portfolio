@@ -49,8 +49,8 @@ a {
   color: var(--fourth-color);
 }
 
-a :active {
-  color: var(--third-color);
+a:hover {
+  color: var(--primary-color);
 }
 
 .navbar-brand {
@@ -69,6 +69,12 @@ a :active {
 .nav-link {
   font-size: 16px;
   font-family: var(--heading-font-family);
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: var(--fourth-color);
 }
 
 .hero {
