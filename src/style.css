@@ -266,10 +266,6 @@ a :active {
   }
 
   .hero-body {
-    display: none;
-  }
-
-  .hero-body-mobile {
     display: block;
     font-size: 14px;
   }
