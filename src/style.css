@@ -253,6 +253,10 @@ a :active {
 /*Mobile Screen */
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
   h2 {
     font-size: 22px;
   }
@@ -272,6 +276,10 @@ a :active {
 
   .btn {
     font-size: 12px;
+  }
+
+  .contact-form {
+    margin-left: 40px;
   }
 }
 
