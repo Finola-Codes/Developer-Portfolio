@@ -54,7 +54,7 @@ a :active {
 }
 
 .navbar-brand {
-  font-size: 14px !important;
+  font-size: 16px !important;
   font-weight: 600;
   font-family: var(--heading-font-family) !important;
   text-decoration: none !important;
