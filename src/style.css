@@ -82,7 +82,6 @@ a:hover {
   background-color: rgb(95, 24, 84, 0.1);
   font-family: var(--heading-font-family);
   font-size: 60px;
-  margin-bottom: 0.5rem;
 }
 
 .hero-code-text {
@@ -245,11 +244,7 @@ a:hover {
 }
 
 .contact-form {
-  margin-left: 90px;
-}
-
-.finola-image {
-  margin: 25px 100px;
+  margin: 100px;
 }
 
 /*Mobile Screen */
@@ -272,7 +267,7 @@ a:hover {
   }
 
   .hero {
-    padding: 150px 20px 100px 50px;
+    padding: 150px 60px 100px 50px;
   }
 
   .hero-body {
@@ -286,9 +281,10 @@ a:hover {
 
   .btn-projects {
     font-size: 14px;
+    padding: 15px;
   }
 
-  .btn-contact {
+  .btn-home {
     display: none;
   }
 
@@ -298,6 +294,10 @@ a:hover {
 
   .form-control {
     font-size: 12px;
+  }
+
+  .btn-contact {
+    font-size: 14px;
   }
 }
 
