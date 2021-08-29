@@ -247,6 +247,14 @@ a:hover {
   margin: 100px;
 }
 
+/* About me */
+
+.finola-image {
+  padding: 100px;
+  max-width: 100%;
+  border-radius: 800px;
+}
+
 /*Mobile Screen */
 
 @media (max-width: 768px) {
