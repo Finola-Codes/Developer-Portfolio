@@ -253,6 +253,10 @@ a:hover {
 /*Mobile Screen */
 
 @media (max-width: 768px) {
+  .navbar {
+    display: flex;
+  }
+
   h1 {
     font-size: 40px;
   }
