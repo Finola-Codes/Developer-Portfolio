@@ -208,7 +208,9 @@ a:hover {
   box-shadow: var(--box-shadow);
   background: whitesmoke;
   border: none;
+  margin: 30px;
 }
+
 .card-img-top {
   padding: 25px;
   border-radius: 40px;
@@ -262,7 +264,7 @@ a:hover {
   }
 
   h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   p {
@@ -270,7 +272,7 @@ a:hover {
   }
 
   .hero {
-    padding: 150px 20px 50px 20px;
+    padding: 150px 20px 100px 50px;
   }
 
   .hero-body {
@@ -278,12 +280,24 @@ a:hover {
     font-size: 14px;
   }
 
-  .btn {
-    font-size: 12px;
+  .hero-br {
+    display: none;
+  }
+
+  .btn-projects {
+    font-size: 14px;
+  }
+
+  .btn-contact {
+    display: none;
   }
 
   .contact-form {
     margin-left: 40px;
+  }
+
+  .form-control {
+    font-size: 12px;
   }
 }
 
